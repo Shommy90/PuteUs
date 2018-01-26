@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
+
+body {font-family: 'Montserrat', sans-serif; font-size: 16px;}
+a {text-decoration: none;}
+.wrapper {max-width: 1200px; width: 100%; margin: 0 auto;}
+.clr {clear: both; content: ''; display: table;}
+.fl {float: left;}
+.fr {float: right;}
+a.btn {display: inline-block; width: 300px; height: 80px; line-height: 80px; text-align: center; color: #fff; font-size: 24px; font-weight: 400; box-shadow: -20px 20px 30px rgba(0,0,0,0.2);}
+a.btn-small {display: inline-block; width: 200px; height: 60px; line-height: 60px; font-size: 18px; text-align: center; font-weight: 400; color: #fff;}
+a.btn-plus {position: absolute; display: inline-block; width: 48px; height: 48px; background: url(../images/btn-plus.png) no-repeat center;}
+a.pink {background: #c91586;}
+a.black {background: #000;}
+a.white {background: #fff; color: #000;}
+.bg-pink {background: #c91586;}
+.bg-white {background: #fff;}
+.bg-black {background: #000;}
+
+
+
+.hr-shadow {box-shadow: 0px 2px 2px #d4d4d4;}
+.h-line.black hr {border: 1px solid #000;}
+.h-line.center {margin: 0 auto;}
+
+
+
+
+/**************HEADER****/
+
+header.home {background: url(../images/home-header.jpg) no-repeat top center; width: 100%; background-size: cover; height: 800px; position: relative;}
+nav.navigation {width: 100%; top: 0; position: fixed; z-index: 999999; padding-top: 15px; transition: all .5s;}
+nav.navigation .logo {margin-left: 45px; padding-top: 15px;}
+nav.navigation .logo a {background: url(../images/logo3.png) no-repeat top center; display: block; width: 216px; height: 75px;}
+nav.navigation .menu {margin-right: 50px; padding-top: 15px;}
+nav.navigation .menu a {background: url(../images/menu.png) no-repeat top center; display: block; width: 76px; height: 63px;}
+
+header.home .header-title h1 {font-weight: 600; font-size: 64px; text-transform: uppercase; padding-top: 150px; margin-bottom: 320px;}
+
+.header-buttons .sales {display: inline-block; margin-right: 16px;}
+.header-buttons .btn-support {display: inline-block;}
+
+
+
+
+/*******************FOOTER*****/
+
+.footer {width: 100%; background: #000; padding: 90px 0 25px 0; color: #fff; }
+.footer p { font-weight: 400; line-height: 24px; font-size: 18px;}
+.footer h3 {font-size: 32px; line-height: 40px; font-weight: 500; padding-bottom: 45px;}
+.footer .footer-top > ul > li {max-width: 300px; width: 100%; float: left; margin-right: 145px;}
+.footer .footer-top > ul > li:last-child {margin-right: 0;}
+
+.footer .footer-top > ul > li.contact ul li p.location {padding-left: 40px; background: url(../images/location.png) no-repeat top left;}
+.footer .footer-top > ul > li.contact ul li p.location a.btn {margin-top: 15px; width: 200px; height: 60px; font-size: 18px; line-height: 60px; margin-bottom: 30px;}
+.footer .footer-top > ul > li.contact ul li p.phone {padding-left: 40px; background: url(../images/tel.png) no-repeat top left;}
+.footer .footer-top > ul > li.contact ul li p.fax {padding-left: 40px; background: url(../images/fax.png) no-repeat top left;}
+.footer .footer-top > ul > li.contact ul li p.email {padding-left: 40px; background: url(../images/email.png) no-repeat top left;}
+.footer .footer-top > ul > li.contact ul li p.email a {color: #fff;}
+.footer .footer-top > ul > li.contact ul li p {padding-bottom: 25px;}
+
+.footer .footer-top > ul > li.subscribe h3 {text-align: center;}
+.footer .footer-top > ul > li.subscribe input[type="text"] {width: 300px; height: 80px; background: #fff; border: none; margin-bottom: 25px; font-size: 24px; text-align: center;}
+.footer .footer-top > ul > li.subscribe input::placeholder {color: #ccc;}
+.footer .footer-top > ul > li.subscribe button {background: #c91586; width: 300px; height: 80px; text-align: center; color: #fff; font-size: 24px; font-weight: 400; border: none; padding: 0 30px;}
+.footer .footer-top > ul > li.subscribe button:hover {cursor: pointer;}
+
+.footer .footer-top > ul > li.connect a.socials {font-size: 45px; text-align: center; line-height: 80px; display: inline-block; width: 80px; height: 80px; background: #c91586; color: #000; margin-right: -3px; margin-bottom: 35px;}
+.footer .footer-top > ul > li.connect p {margin-bottom: 28px;}
+
+.footer .footer-bottom {max-width: 750px; width: 100%; margin: 0 auto;}
+.footer .footer-bottom h3 {text-align: center; padding-bottom: 40px; padding-top: 60px; }
+.footer .footer-bottom ul {text-align: center;}
+.footer .footer-bottom ul li {display: inline-block; margin-right: 35px;}
+.footer .footer-bottom ul li:last-child {margin-right: 0;}
+
+.footer .copyright p {font-size: 16px; line-height: 40px; color: #fff; margin-top: 60px; margin-left: 30px;}
+
+
+
+
+/***************HOME****/
+
+/****************VETERINARY****/
+
+#home .veterinary {margin: 0 auto; text-align: center; padding: 70px 0; color: #fff}
+#home .veterinary h2 {font-size: 64px; line-height: 64px; font-weight: 500; text-transform: uppercase;}
+#home .veterinary h4 {font-size: 32px; line-height: 40px; font-weight: 400; text-transform: uppercase; margin-top: 30px;}
+#home .veterinary .hl {margin: 40px 0 35px 0;}
+#home .veterinary p {font-weight: 400; padding: 0 180px; font-size: 18px; line-height: 24px; margin-bottom: 80px;}
+#home .veterinary .vet-icons ul li {display: inline-block; margin-right: 110px; position: relative;}
+#home .veterinary .vet-icons ul li:last-child {margin-right: 0;}
+#home .veterinary .vet-icons ul li img {margin-bottom: 40px;}
+#home .veterinary .vet-icons ul li h5 {font-weight: 400; font-size: 18px; line-height: 24px; text-transform: uppercase; }
+#home .veterinary .vet-icons ul li a.btn-plus {position: absolute; display: inline-block; width: 48px; height: 48px; background: url(../images/btn-plus.png) no-repeat center; left: 0; right: 0; margin: auto; bottom: -95px;}
+
+
+
+/*******************PRINTER****/
+
+#home .printer {width: 100%; background: #fff; color: #000; }
+#home .printer .printer-left {max-width: 590px; width: 100%; padding-top: 110px;}
+#home .printer .printer-left h3 {font-size: 32px; line-height: 40px; font-weight: 400; text-transform: uppercase; margin-bottom: 20px;}
+#home .printer .printer-left h2 {font-size: 64px; line-height: 64px; }
+.h-line {padding: 40px 0; width: 400px;}
+.h-line hr {border: 1px solid #c91586; }
+#home .printer .printer-left p {font-size: 18px; line-height: 24px; font-weight: 400; padding-right: 120px; margin-bottom: 80px;}
+/*
+#home .printer .printer-right {background: url(../images/printer-bg.png) no-repeat center center; width: 790px; height: 799px;}*/
+
+#home .printer {background: #fff url(../images/printer-bg.png) no-repeat center right; height: 799px;}
+
+
+/*******************SUPPORT****/
+
+.support {width: 100%; background: #000 url(../images/support-bg.png) no-repeat center right; height: 640px; color: #fff;}
+.support .support-wrap {position: relative; max-width: 700px; width: 100%; margin: 0 auto; text-align: center; padding-top: 80px;}
+.support .support-wrap h2 {font-size: 64px; line-height: 64px; font-weight: 500; text-transform: uppercase;}
+.support .support-wrap .h-line {margin: 0 auto;}
+.support .support-wrap p {font-size: 18px; line-height: 24px; font-weight: 400; margin-bottom: 80px;}
+.support .support-wrap .support-btns a.pink {margin-right: 35px;}
+.support .support-wrap .support-logo {position: absolute; left: 0; right: 0; margin: auto; height: 80px; width: 80px; bottom: -272px; background: #fff; padding: 25px; border: 20px solid #000; display: inline-block; border-radius: 100px;}
+
+
+
+/****************BLOG***/
+
+.blog {padding: 120px 0 65px 0; width: 100%; background: #fff; color: #000;}
+.blog .blog-title {margin: 0 auto; text-align: center;}
+.blog .blog-title h2 {font-size: 32px; line-height: 40px; font-weight: 400; text-transform: uppercase;}
+.blog .h-line {margin: 0 auto; padding-bottom: 70px;}
+.blog .h-line hr {border: 1px solid #000;}
+.blog .blog-posts {margin: 0 auto; width: 100%;}
+
+
+
+.blog .blog-posts ul {text-align: center;}
+.blog .blog-posts ul li {position: relative; display: inline-block; max-width: 350px; width: 100%; height: 370px; box-sizing: border-box; text-align: center; margin-right: 40px; }
+.blog .blog-posts ul li:last-child {margin-right: 0;}
+.blog .blog-posts ul li .blog-title {position: absolute; top: 0;}
+.blog .blog-posts ul li .blog-title h3 {font-size: 32px; line-height: 40px; color: #c91586;}
+.blog .blog-posts ul li .blog-text {position: absolute; bottom: 0;}
+.blog .blog-posts ul li .blog-text p {font-size: 18px; line-height: 24px; font-weight: 400; }
+.blog .blog-posts ul li .blog-text a {color: #c91586;}
+.blog .blog-posts .read-blog {margin: 0 auto; width: 300px; margin-top: 65px;}
+
+
+
+
+
+
+
+/*********************ABOUT*****/
+
+header.about {background: url(../images/about-header.jpg) no-repeat top center; width: 100%; background-size: cover; height: 800px; position: relative; padding-top: 160px;}
+header.about .about-heading {max-width: 700px; width: 100%;}
+.about-heading h4 {font-size: 24px; line-height: 32px; font-weight: 400; color: #c91586; margin-bottom: 45px; margin-left: 10px;}
+.about-heading h1 {font-size: 64px; line-height: 64px; font-weight: 600; margin-bottom: 40px;}
+header.about .about-heading p {font-size: 24px; line-height: 32px; font-weight: 400;}
+
+#about {width: 100%; background: #fff; color: #000;}
+
+/**************VET HOSPITALS***/
+
+#about .vet-hospitals {width: 100%; padding: 70px 0;}
+#about .vet-hospitals .vet-heading {max-width: 990px; width: 100%; text-align: center; margin: 0 auto;}
+#about .vet-hospitals .vet-heading h3 {font-size: 32px; line-height: 40px; font-weight: 400; color: #c91586; margin-bottom: 30px;}
+#about .vet-hospitals .vet-heading h2 {font-size: 64px; line-height: 64px; font-weight: 500; color: #c91586; margin-bottom: 60px;}
+#about .vet-hospitals .vet-heading p {font-size: 18px; line-height: 24px; font-weight: 400; padding: 0 60px;}
+
+
+
+/********************VET SERVICES***/
+
+#about .vet-services {width: 100%; padding: 70px 0;}
+#about .vet-services ul {width: 100%; text-align: center;}
+#about .vet-services ul li {max-width: 280px; width: 100%; height: 400px; box-sizing: border-box; text-align: center; padding: 0 20px; float: left; box-shadow: 0 0 15px #ccc; margin-right: 20px; margin-bottom: 20px;}
+#about .vet-services ul li:nth-child(4) {margin-right: 0;}
+#about .vet-services ul li .service-logo {height: 180px; box-sizing: border-box; width: 100%; padding-top: 55px;}
+#about .vet-services ul li p {font-size: 16px; line-height: 24px; font-weight: 400;}
+#about .vet-services ul li.last-li {background: #c91586; }
+#about .vet-services ul li.last-li p {color: #fff; margin-bottom: 65px;}
+#about .vet-services ul li.last-li a.black {margin-bottom: 30px;}
+
+
+
+
+/******************ABOUT US****/
+
+#about .about-us {padding-top: 70px; max-width: 990px; width: 100%; margin: 0 auto;}
+#about .about-us .about-us-headline {width: 100%; text-align: center;}
+#about .about-us .about-us-headline h2 {font-size: 64px; line-height: 64px; font-weight: 500; margin-bottom: 75px;}
+#about .about-us .about-us-text {width: 100%; text-align: center; padding-bottom: 55px;}
+#about .about-us .about-us-text p {font-size: 18px; line-height: 24px; font-weight: 400; padding: 0 30px;}
+#about .about-us .pute-us-logos {width: 100%; text-align: center;}
+#about .about-us .pute-us-logos ul {width: 100%;}
+#about .about-us .pute-us-logos ul li {display: inline-block; margin-right: 100px; position: relative; max-width: 220px; width: 100%; margin-bottom: 30px;}
+#about .about-us .pute-us-logos ul li:last-child {margin-right: 0;}
+#about .about-us .pute-us-logos ul li .image {position: relative; top: 0; width: 100%; }
+#about .about-us .pute-us-logos ul li .pink-circle {position: absolute; width: 20px; height: 20px; background: #c91586; border-radius: 100px; right: 0; left: 0; margin: auto; bottom: -41px;}
+
+#about .about-us-line {width: 100%; border-bottom: 2px solid #c91586;}
+
+#about .about-us.no-padd {padding-top: 0; padding-bottom: 170px;}
+#about .about-us .about-bottom {width: 100%; text-align: center;}
+#about .about-us ul.ul-about-us {width: 100%; }
+#about .about-us ul.ul-about-us li {display: inline-block; width: 220px; height: 210px; margin-right: 100px; text-align: center; vertical-align: top; padding-top: 30px;}
+#about .about-us ul.ul-about-us li:last-child {margin-right: 0;}
+#about .about-us ul.ul-about-us li span {font-size: 18px; line-height: 24px; font-weight: 500; margin-bottom: 20px; display: block;}
+#about .about-us ul.ul-about-us li p {font-size: 16px; line-height: 24px; font-weight: 400;}
+
+
+
+/******************COMMENTS***/
+
+#about .comments {width: 100%; background: #c91586; color: #fff; padding: 80px 0;}
+#about .comments .comments-headline {text-align: center; width: 100%; margin-bottom: 90px;}
+#about .comments .comments-headline h2 {font-size: 64px; line-height: 64px; font-weight: 500;}
+#about .comments .comments-text {width: 100%; text-align: center; margin-bottom: 50px;}
+#about .comments .comments-text p {padding: 0 80px; font-size: 18px; line-height: 24px; font-weight: 400;}
+#about .comments .client {width: 100%; text-align: center;}
+#about .comments .client p {font-size: 18px; line-height: 24px; font-weight: 500;}
+#about .comments .client p.name {margin-bottom: 30px;}
+#about .comments .client a {color: #fff; font-weight: 400; display: inline-block; margin-top: 5px;}
+
+
+
+
+
+
+/**************SERVICES****/
+
+#services {width: 100%; background: #fff; color: #000; padding-top: 160px;}
+#services .services-heading h4 {font-size: 24px; line-height: 32px; font-weight: 400; color: #c91586; margin-bottom: 55px; margin-left: 10px;}
+#services .services-list {width: 100%;}
+#services .services-list ul {width: 100%; padding-bottom: 150px;}
+#services .services-list ul li {position: relative; width: 280px; height: 280px; float: left; background: #c91586; color: #fff; margin-right: 20px;}
+#services .services-list ul li:last-child {margin-right: 0;}
+#services .services-list ul li .list-top {width: 100%; height: 125px; position: relative; top: 0; text-align: center; padding-top: 25px; box-sizing: border-box;}
+#services .services-list ul li .list-top h4 {font-size: 24px; font-weight: 400; margin-bottom: 5px;}
+#services .services-list ul li .list-top h3 {font-size: 32px; font-weight: 500; margin-bottom: 5px;}
+#services .services-list ul li .list-bottom {position: relative; width: 100%; height: 150px; bottom: 0; text-align: center; box-sizing: border-box; padding-top: 5px;}
+#services .services-list ul li .list-bottom a.btn-plus {margin: auto; left: 0; right: 0; bottom: -30px;}
+
+
+
+
+/************IT SUPPORT***/
+
+#services .it-support {width: 100%;}
+#services .it-support .it-support-headline {padding-top: 35px; text-align: center; padding-bottom: 65px;}
+#services .it-support .it-support-headline h2 {font-size: 64px; line-height: 64px; font-weight: 500; margin-bottom: 60px;}
+#services .it-support .it-support-headline h3 {font-size: 32px; line-height: 40px; font-weight: 400;}
+#services .it-support .it-support-headline h3 span {color: #c91586;}
+
+#services .it-support .services-provided { padding-bottom: 50px; margin: 0 auto;}
+#services .it-support .services-provided ul {max-width: 1170px; width: 100%; margin: 0 auto;}
+#services .it-support .services-provided ul li {padding: 0 5px; text-align: center; float: left; margin-right: 20px; border: 1px solid #b3b3b3; width: 150px; height: 150px; box-sizing: border-box; margin-bottom: 20px; position: relative;}
+#services .it-support .services-provided ul li:nth-child(7n) {margin-right: 0;}
+#services .it-support .services-provided ul li .img-done {position: relative; height: 40px; width: 100%; box-sizing: border-box; }
+#services .it-support .services-provided ul li .img-done img {position: absolute; right: 0; left: 0; margin: auto; top: -7px;}
+#services .it-support .services-provided ul li .provided-text {position: relative; height: 100px; width: 100%; box-sizing: border-box;}
+#services .it-support .services-provided ul li .provided-text p {font-size: 16px; line-height: 24px; font-weight: 400;}
+
+#services .it-support .it-support-buttons {text-align: center; width: 100%; padding-bottom: 50px;}
+#services .it-support .it-support-buttons a.pink {margin-right: 30px;}
+
+
+/**************SYSTEMS***/
+
+#services .systems {max-width: 600px; width: 100%; margin: 0 auto; padding-bottom: 70px;}
+#services .systems .systems-headline {text-align: center; width: 100%; padding-bottom: 30px;}
+#services .systems .systems-headline h3 {font-size: 32px; line-height: 40px; font-weight: 400; margin-bottom: 40px;}
+#services .systems .systems-headline h3 span {color: #c91586;}
+#services .systems .systems-headline p {font-size: 18px; line-height: 24px; font-weight: 400; padding: 0 50px;}
+#services .systems .system-logos {width: 100%; text-align: center;}
+#services .systems .system-logos ul li {display: inline-block; margin-bottom: 20px; margin-right: 20px;}
+
+
+
+
+
+/******************CONSULTING****/
+
+#services .consulting {padding: 80px 0; width: 100%; background: #c91586; color: #fff;}
+#services .consulting .consulting-headline {width: 100%; text-align: center;}
+#services .consulting .consulting-headline h4 {font-size: 32px; line-height: 40px; font-weight: 400; }
+#services .consulting .consulting-headline h2 {font-size: 64px; line-height: 64px; font-weight: 500; margin: 30px 0 80px 0;}
+#services .consulting .consulting-headline p {font-size: 18px; line-height: 24px; font-weight: 300; padding: 0 150px; text-align: center; margin-bottom: 55px;}
+#services .consulting .business-items {width: 100%;}
+#services .consulting .business-items h4 {text-align: center; font-size: 32px; line-height: 40px; font-weight: 400; margin-bottom: 45px;}
+#services .consulting .business-items .business-items-list {width: 100%;}
+#services .consulting .business-items .business-items-list ul li {min-height: 390px; box-shadow: 56px -12px 55px -42px rgba(0,0,0,.3); position: relative; float: left; max-width: 265px; width: 100%; margin-right: 35px; box-sizing: border-box; padding-right: 15px; padding-left: 5px; text-align: left;}
+#services .consulting .business-items .business-items-list ul li::after {content: ""; position: absolute; width: 0; height: 0; border-top: 20px solid transparent; border-right: 20px solid transparent; border-bottom: 20px solid transparent; border-left: 20px solid #c91586; left: 100%; top: 30px;}
+#services .consulting .business-items .business-items-list ul li:last-child {margin-right: 0; box-shadow: none;}
+#services .consulting .business-items .business-items-list ul li .list-headline {width: 100%; height: 110px; box-sizing: border-box; padding-top: 25px;}
+#services .consulting .business-items .business-items-list ul li .list-headline h5 {font-size: 18px; line-height: 24px; font-weight: 500;}
+#services .consulting .business-items .business-items-list ul li .list-content {width: 100%; box-sizing: border-box;}
+#services .consulting .business-items .business-items-list ul li .list-content p {font-size: 18px; font-weight: 300; line-height: 24px;}
+#services .consulting .business-content {max-width: 900px; width: 100%; text-align: center; padding-top: 55px; padding-bottom: 65px; margin: auto;}
+#services .consulting .business-content p {font-size: 18px; line-height: 24px; font-weight: 300; padding: 0 30px;}
+#services .consulting .contact-us-btn {width: 100%; text-align: center;}
+
+
+
+
+
+/*****************VETSHIELD**/
+
+#services .vetshield {width: 100%; background: #fff; padding-top: 90px; padding-bottom: 125px;}
+#services .vetshield .vet-headline {background: #fef500; padding: 40px 0;}
+#services .vetshield .vet-headline .headline-bg {background: url(../images/rectangle-vetshield.png) repeat-x; height: 110px; position: relative;}
+#services .vetshield .vet-headline .headline-bg .headline {position: absolute; left: 0; right: 0; margin: auto; max-width: 477px; width: 100%; text-align: center; background: #fef500; height: 110px;}
+#services .vetshield .vet-headline .headline-bg .headline h2 {font-size: 64px; line-height: 64px; font-weight: 500; text-transform: uppercase; margin-top: -10px; margin-bottom: 25px;}
+#services .vetshield .vet-headline .headline-bg .headline h4 {font-size: 32px; line-height: 40px; font-weight: 400; text-transform: uppercase;}
+
+#services .vetshield .guard .guard-wrap {padding-top: 30px; width: 100%;}
+#services .vetshield .guard .guard-wrap .guard-left {background: url(../images/knight.png) no-repeat; width: 360px; height: 688px}
+#services .vetshield .guard .guard-wrap .guard-right {width: 780px; text-align: center; padding-top: 40px;}
+#services .vetshield .guard .guard-wrap .guard-right h3 {font-size: 32px; line-height: 40px; font-weight: 400; margin-bottom: 40px;}
+#services .vetshield .guard .guard-wrap .guard-right p {font-size: 18px; line-height: 24px; font-weight: 400; padding: 0 20px;}
+
+#services .vetshield .guard .guard-list {width: 100%; padding-top: 15px; margin-bottom: 75px; height: 420px; box-shadow: 0px -10px 49px -23px rgba(0,0,0,.8);}
+#services .vetshield .guard .guard-list ul {width: 100%; margin-left: 20px;}
+#services .vetshield .guard .guard-list ul li {max-width: 280px; width: 100%; height: 400px; box-sizing: border-box; text-align: center; padding: 0 20px; float: left; box-shadow: 0 0 15px #ccc; margin-right: 20px;}
+#services .vetshield .guard .guard-list ul li:last-child {margin-right: 0;}
+#services .vetshield .guard .guard-list ul li .guard-li-top {height: 180px; box-sizing: border-box; padding-top: 40px; text-align: center;}
+#services .vetshield .guard .guard-list ul li .guard-li-top h3 {font-size: 24px; line-height: 30px; font-weight: 500; color: #c91586;}
+#services .vetshield .guard .guard-list ul li .guard-li-bottom p {font-size: 16px; line-height: 24px; font-weight: 400; }
+#services .vetshield .guard .guard-contact {text-align: center; margin-bottom: 60px; width: 100%;}
+
+#services .vetshield .backup {text-align: center;}
+#services .vetshield .backup .vault-logo {margin-top: 30px; margin-bottom: 20px;}
+#services .vetshield .backup .backup-content {max-width: 900px; width: 100%; margin: 0 auto; padding-bottom: 75px;}
+#services .vetshield .backup .backup-content h4 {font-size: 32px; line-height: 40px; font-weight: 400; margin-bottom: 20px; color: #c91586;}
+#services .vetshield .backup .backup-content p {font-size: 18px; line-height: 24px; font-weight: 400;}
+
+#services .vetshield .how-works {text-align: center;}
+#services .vetshield .how-works h4 {font-size: 32px; line-height: 40px; font-weight: 400; margin-bottom: 60px;}
+#services .vetshield .how-works ul {width: 100%; margin-bottom: 60px;}
+#services .vetshield .how-works ul li {max-width: 280px; width: 100%; text-align: center; display: inline-block; vertical-align: top; margin-right: 145px;}
+#services .vetshield .how-works ul li:last-child {margin-right: 0;}
+#services .vetshield .how-works ul li .monitor {padding-bottom: 30px;}
+#services .vetshield .how-works ul li .content h5 {margin-bottom: 20px; font-size: 24px; line-height: 40px; font-weight: 600; color: #c91586;}
+#services .vetshield .how-works ul li .content p {font-size: 16px; line-height: 24px; font-weight: 400;}
+#services .vetshield .how-works h4 span {color: #c91586;}
+#services .vetshield .how-works h4 span span.inner-span {font-weight: 600;}
+
+
+
+
+
+/********************SUPPORT PAGE***/
+
+header.support-page {background: url(../images/support-header.jpg) no-repeat top center; width: 100%; background-size: cover; height: 800px; position: relative; padding-top: 160px;}
+header.support-page .header-buttons {margin-top: 75px;}
+
+.support-header-content {padding: 65px 0 75px 0; width: 100%; background: #fff;}
+.support-header-content .supp-text {width: 890px; margin: 0 auto; text-align: center;}
+.support-header-content .supp-text p {font-size: 18px; line-height: 24px; font-weight: 300; padding: 0 15px;}
+
+.rem-cust-support {width: 100%;}
+.rem-cust-support .remote-support,
+.rem-cust-support .customer-supprt {width: 50%; padding: 65px 0; min-height: 500px; color: #fff;}
+
+.rem-cust-support .supp-wrap {text-align: center; max-width: 600px; width: 100%; box-sizing: border-box; padding: 0 80px;}
+.rem-cust-support .supp-wrap h5 {margin: 35px 0 25px 0; font-size: 18px; line-height: 24px; font-weight: 500;}
+.rem-cust-support .supp-wrap p {font-size: 18px; line-height: 24px; font-weight: 300; margin-bottom: 70px; padding: 0 14px;}
+
+
+
+
+
+
+/**********************TECH MANAGERS***/
+
+.tech-managers {width: 100%; background: #fff; padding: 100px 0 0 0;}
+.tech-managers h1 {font-size: 64px; line-height: 64px; text-align: center; margin-bottom: 120px;}
+.tech-managers .managers-box {max-width: 860px; width: 100%; box-sizing: border-box; margin: 0 auto;}
+.tech-managers .managers-box .manager-info {max-width: 605px; width: 100%; margin-bottom: 90px;}
+.tech-managers .managers-box .manager-info h3 {font-size: 32px; line-height: 40px; font-weight: 400; margin-bottom: 20px;}
+.tech-managers .managers-box .manager-info p {font-size: 18px; line-height: 24px; font-weight: 400;}
+
+
+
+
+
+/****************CONTACT***/
+
+.contact-section {padding: 165px 0 80px 0;}
+.contact-section h4 {font-size: 24px; line-height: 32px; font-weight: 400; color: #c91586; margin-left: 10px; margin-bottom: 30px;}
+.contact-section .contact-crew {padding: 0 150px; box-sizing: border-box; width: 100%; text-align: center;}
+.contact-section .contact-crew .contact-headline {max-width: 700px; width: 100%; margin: 0 auto; margin-bottom: 20px;}
+.contact-section .contact-crew .contact-headline h2 {font-size: 64px; line-height: 64px; font-weight: 500; margin-bottom: 65px;}
+.contact-section .contact-crew .contact-headline p {font-size: 24px; line-height: 32px; font-weight: 400;}
+.contact-section .contact-crew .contact-form {padding-top: 45px; max-width: 885px; width: 100%; position: relative; margin: 0 auto; height: 770px; box-sizing: border-box;}
+.contact-section .contact-crew .contact-form::before {content: ""; position: absolute; right: 100%; background: url(../images/bracket-open.png) no-repeat center center; max-width: 150px; width: 100%; height: 638px; top: 0;}
+.contact-section .contact-crew .contact-form::after {content: ""; position: absolute; left: 100%; background: url(../images/bracket-close.png) no-repeat center center; max-width: 150px; width: 100%; height: 638px; top: 0;}
+.contact-section .contact-crew .contact-form form {width: 95%; margin: 0 auto; }
+.contact-section .contact-crew .contact-form form ul li {box-sizing: border-box; margin-bottom: 15px; display: block;}
+.contact-section .contact-crew .contact-form form ul li span {display: inline-block; box-sizing: border-box;}
+.contact-section .contact-crew .contact-form form ul li span.double {width: 48%; margin-right: 29px;}
+.contact-section .contact-crew .contact-form form ul li span.double:last-child {margin-right: 0;}
+.contact-section .contact-crew .contact-form form ul li span.facility {width: 100%;}
+.contact-section .contact-crew .contact-form form ul li span.textarea {width: 100%;}
+.contact-section .contact-crew .contact-form form ul li span.textarea textarea {width: 100%; resize: none;}
+.contact-section .contact-crew .contact-form form ul li span input {color: #777; box-shadow: 0 0 15px #ccc; border: none; width: 100%; height: 80px; padding: 0 30px; box-sizing: border-box; font-size: 24px; line-height: 24px;}
+.contact-section .contact-crew .contact-form form ul li span textarea {color: #777; box-shadow: 0 0 15px #ccc; border: none; height: 240px; box-sizing: border-box; padding: 30px 30px; font-size: 24px; line-height: 24px;}
+.contact-section .contact-crew .contact-form form ul li span input::placeholder,
+.contact-section .contact-crew .contact-form form ul li span textarea::placeholder {color: #d7d7d7;}
+.contact-section .contact-crew .contact-form form ul li.li-btn {margin-top: 70px;}
+
+.contact-phone {background: #c91586; color: #fff; padding: 40px 0 50px 0; text-align: center;}
+.contact-phone h5 {font-size: 32px; line-height: 40px; font-weight: 300; margin-bottom: 20px;}
+.contact-phone h2 {font-size: 64px; line-height: 64px; font-weight: 500;}
+.contact-map {width: 100%; height: 365px;}
+
+
+
+
+
+
+/***************BLOG 01 MAIN**/
+
+header.blog-main-header {padding-top: 160px;}
+header.blog-main-header h4 {font-size: 24px; line-height: 32px; font-weight: 400; color: #c91586; margin-left: 10px; margin-bottom: 30px;}
+header.blog-main-header .blog-header-img {width: 100%;}
+header.blog-main-header .blog-header-img img {width: 100%;}
+
+.cat-overview {padding-top: 40px; padding-bottom: 40px; width: 100%;}
+.cat-overview .wrapper {overflow: hidden;}
+.cat-overview h2 {font-size: 64px; line-height: 64px; font-weight: 600; margin-bottom: 10px;}
+.cat-overview span {display: block; font-size: 18px; line-height: 40px; margin-bottom: 35px; color: #c91586;}
+.cat-overview p.cats-info {font-size: 24px; line-height: 32px; font-weight: 400; margin-bottom: 30px;}
+
+.read-on {max-width: 590px; width: 100%; height: 60px; border-top: 1px solid #c91586; padding-top: 20px;}
+.read-on a {font-size: 24px; line-height: 40px; color: #c91586;}
+
+.blog-boxes {padding-bottom: 100px;}
+.blog-boxes .boxes-list ul li {position: relative; max-width: 580px; width: 100%; height: 690px; float: left; margin-bottom: 30px; margin-right: 35px;}
+.blog-boxes .boxes-list ul li:nth-child(2n) {margin-right: 0;}
+.blog-boxes .boxes-list ul li .box-top .box-img {width: 100%; margin-bottom: 35px;}
+.blog-boxes .boxes-list ul li .box-top .box-img img {width: 100%;}
+.blog-boxes .boxes-list ul li .box-top .box-content h3 {font-size: 32px; line-height: 40px; font-weight: 600; margin-bottom: 20px;}
+.blog-boxes .boxes-list ul li .box-top .box-content p {font-size: 18px; line-height: 24px;}
+.blog-boxes .boxes-list ul li .read-on {position: absolute; bottom: 0;}
+
+.blog-boxes .box-pages {text-align: center; padding-top: 70px;}
+.blog-boxes .box-pages ul li {display: inline-block; color: #c9c9c9;}
+.blog-boxes .box-pages ul li a {color: #c9c9c9; font-size: 18px; line-height: 24px; padding: 3px 5px;}
+.blog-boxes .box-pages ul li a.page-active {color: #000;}
+.blog-boxes .box-pages ul li.page-arrow {vertical-align: middle;}
+.blog-boxes .box-pages ul li.page-arrow a {font-size: 35px;}
+.blog-boxes .box-pages ul li.page-numbers {padding: 0 30px; vertical-align: middle;}
+.blog-boxes .box-pages ul li.page-numbers a {margin: 0 3px;}
+
+
+
+
+
+/***************BLOG 02 SINGLE**/
+
+.cat-overview .share-socials {max-width: 150px; width: 100%; height: 590px; text-align: center; border-right: 1px solid #c91586; margin-right: 35px;}
+.cat-overview .share-socials p {font-size: 16px; line-height: 40px;}
+.cat-overview .share-socials .blog-socials a.socials {font-size: 24px; text-align: center; line-height: 40px; display: inline-block; width: 40px; height: 40px; background: #c91586; color: #fff; margin-right: -2px;}
+
+.cat-overview-wrap {max-width: 850px; width: 100%;}
+.cat-overview-wrap p {font-size: 18px; line-height: 24px; margin-bottom: 25px; padding-right: 50px;}
+
+.cat-overview-wrap .prev-next {width: 100%; margin-top: 100px;}
+.cat-overview-wrap .prev-next .prev-next-box {max-width: 320px; width: 100%; }
+.cat-overview-wrap .prev-next .prev-next-box a {font-size: 24px; line-height: 40px; color: #c91586; text-transform: uppercase; margin-bottom: 25px; display: inline-block;}
+.cat-overview-wrap .prev-next .prev-next-box h3 {font-size: 32px; line-height: 40px;}
