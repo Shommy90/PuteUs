@@ -679,3 +679,52 @@ a.add-printer-btn {margin-right: 15px; width: 50px; height: 50px; background: ur
 .pick-col-wrap input[type="checkbox"]+label::before {transition: all .1s ease; content: ''; position: relative; top: 15px; display: inline-block; width: 48px; height: 48px; border: 1px solid #a6a6a6; background-color: #e7e7e7; margin-right: 10px;}
 .pick-col-wrap input[type="checkbox"]:checked+label::before {background: #e7e7e7 url(../images/done.png) no-repeat center center;}
 .pick-col-wrap input[type="checkbox"]+label:hover {cursor: pointer;}
+
+
+
+
+
+/************ AAHA TOP */
+#aaha-top {width: 100%; height: 800px; background: url(../images/aaha-top-bg.jpg) no-repeat center center; background-size: cover;}
+#aaha-top .wrapper {height: 100%; display: flex; align-items: center; padding-top: 100px;}
+.aaha-top-content {max-width: 600px; width: 100%; padding: 0 20px;}
+.aaha-logo {max-width: 285px; width: 100%; margin-bottom: 55px;}
+.aaha-logo img {width: 100%;}
+.aaha-content-txt {margin-bottom: 70px;}
+.aaha-content-txt p {font-weight: 300; font-size: 24px; line-height: 32px;}
+
+
+
+/********* AAHA CONTENT **/
+#aaha-content {width: 100%; padding: 60px 0 110px;}
+.aaha-cont-txt {margin: 0 auto; max-width: 900px; width: 100%; padding: 0 20px; margin-bottom: 75px;}
+.aaha-cont-txt p {font-size: 19px; line-height: 24px; text-align: center;}
+
+.aaha-cont-more {width: 100%; margin-bottom: 100px;}
+.aaha-cont-more > ul {display: flex; justify-content: center;}
+.aaha-cont-more > ul > li {max-width: 400px; width: 100%; height: 700px; padding: 35px 50px; color: #fff; position: relative;}
+.aaha-cont-more > ul > li:nth-child(1) {background: #c91586;}
+.aaha-cont-more > ul > li:nth-child(2) {background: #6e6e6e;}
+.aaha-cont-more > ul > li:nth-child(3) {background: #000000;}
+
+.aaha-top-img {text-align: center; margin-bottom: 15px;}
+.aaha-top-title {text-align: center; margin-bottom: 35px;}
+.aaha-top-title h3 {font-size: 32px; line-height: 40px; font-weight: 500;}
+.aaha-top-title h3 span {text-transform: uppercase;}
+.aaha-more-list p {position: relative; padding-left: 15px; font-size: 19px; line-height: 24px; margin-bottom: 15px; font-weight: 300;}
+.aaha-more-list p::before {
+    content: '';
+    position: absolute;
+    background: url(../images/done.png) no-repeat center center;
+    width: 36px;
+    height: 27px;
+    left: -25px;
+    top: -5px;}
+.aaha-more-btn {position: absolute; bottom: 35px;}
+.aaha-more-btn a.txt-pink {color: #c91586;}
+
+.aaha-cont-bottom {max-width: 950px; padding: 0 20px; text-align: center; margin: 0 auto;}
+.aaha-cont-bottom h3 {color: #c91586; font-size: 32px; line-height: 40px; font-weight: 300; margin-bottom: 20px;}
+.aaha-cont-bottom h3 span {font-weight: 600;}
+.aaha-cont-bottom p {font-size: 19px; line-height: 24px; margin-bottom: 25px;}
+.aaha-cont-bottom p.truly-amazing {font-size: 32px; line-height: 40px;}
